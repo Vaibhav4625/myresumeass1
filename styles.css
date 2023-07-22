@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .custom-link {
+    margin-left: 20px; 
+}
+  
+nav a {
+  text-decoration: none; /* Remove underline */
+   /* Adjust the margin value to create the desired space */
+}
+
+  header {
+    text-align: left;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .career_objective, .educational, .education, .skills {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+
+  
+  ul {
+    margin-left: 30px;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+  .left {
+    text-align: left;
+    background-color: rgba(138, 125, 125, 0.593);
+  }
+  
+  .right {
+    text-align: left;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .left,.right{
+    flex-basis: 70%;
+  }
